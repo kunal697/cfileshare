@@ -1,0 +1,28 @@
+{
+  "name": "cfileshare",
+  "version": "1.0.2",
+  "description": "A file sharing cli application",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cfileshare": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "kunal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chalk": "^5.4.1",
+    "clear": "^0.1.0",
+    "dotenv": "^16.4.7",
+    "enquirer": "^2.4.1",
+    "figlet": "^1.8.0",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.4.1",
+    "node-file-dialog": "^1.0.3"
+  }
+}
